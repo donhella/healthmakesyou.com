@@ -1,7 +1,7 @@
 (function () {
   var PER_PAGE = 12;
   var q = document.getElementById('q'), none = document.getElementById('none'), pager = document.getElementById('pager');
-  var section = document.getElementById('videos');
+  var section = document.getElementById('videos'), sub = document.getElementById('subcard');
   var cards = [].slice.call(document.querySelectorAll('#grid .card'));
   var chips = [].slice.call(document.querySelectorAll('.chip'));
   var topic = 'all', page = 1;
@@ -33,6 +33,10 @@
     if (page > pages) page = pages;
     var start = (page - 1) * PER_PAGE, show = list.slice(start, start + PER_PAGE);
     cards.forEach(function (c) { c.hidden = show.indexOf(c) === -1; });
+    if (sub) {
+      if (show.length > 6) { show[5].parentNode.insertBefore(sub, show[5].nextSibling); sub.hidden = false; }
+      else sub.hidden = true;
+    }
     none.hidden = list.length > 0;
     pager.innerHTML = '';
     if (pages > 1) {
