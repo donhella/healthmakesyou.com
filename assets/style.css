@@ -135,6 +135,7 @@ nav a:not(.btn):hover{color:var(--blue)}
   .wrap{padding:0 16px}
   .hero{padding:36px 0 64px}
   nav a:not(.btn){display:none}
+  nav .btn{display:none}
   .top-in{height:72px}
   .brand-ph{width:40px;height:40px}
   .brand{gap:9px}
