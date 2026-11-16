@@ -155,7 +155,10 @@ nav a:not(.btn):hover{color:var(--blue)}
   .wm-tag{font-size:9.5px;margin-top:3px}
   .btn-sm.btn-yt{padding:6px 10px;font-size:12.5px;gap:5px}
   .lede{font-size:16.5px}
-  .grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr;gap:18px}
+  .grid .card,.vside .card{background:#fff;border:1.5px solid #e2d9c6;border-radius:16px;padding:10px 10px 14px}
+  .grid .card h3,.grid .card .meta,.vside .card h3,.vside .card .meta{padding:0 4px}
+  .vside .card{margin-bottom:18px}
   .about-in{flex-direction:column;text-align:center}
   .about img{width:120px;height:120px}
   #q{min-width:0;width:100%}
