@@ -1,5 +1,5 @@
 (function () {
-  var PER_PAGE = 9;
+  var PER_PAGE = 12;
   var q = document.getElementById('q'), none = document.getElementById('none'), pager = document.getElementById('pager');
   var section = document.getElementById('videos');
   var cards = [].slice.call(document.querySelectorAll('#grid .card'));
