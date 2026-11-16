@@ -28,6 +28,8 @@ h1,h2,h3{line-height:1.2;margin:0 0 .5em;font-weight:700;letter-spacing:-.01em}
 .btn-yt-ghost .yt-bg{fill:#E00}.btn-yt-ghost .yt-tri{fill:#fff}
 .btn-yt-ghost:hover{background:#E00;border-color:#E00;color:#fff}
 .btn-yt-ghost:hover .yt-bg{fill:#fff}.btn-yt-ghost:hover .yt-tri{fill:#E00}
+.btn-yt-plain:hover,.btn-yt-plain:active,.btn-yt-plain:focus{background:transparent;border-color:var(--ink);color:var(--ink)}
+.btn-yt-plain:hover .yt-bg,.btn-yt-plain:active .yt-bg,.btn-yt-plain:focus .yt-bg{fill:#E00}.btn-yt-plain:hover .yt-tri,.btn-yt-plain:active .yt-tri,.btn-yt-plain:focus .yt-tri{fill:#fff}
 .pager{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:40px}
 .pager button{font:inherit;font-weight:600;font-size:15px;min-width:44px;height:44px;padding:0 14px;border-radius:999px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
 .pager button:hover:not(:disabled){background:var(--yellow)}
