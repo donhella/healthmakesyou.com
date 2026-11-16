@@ -1,5 +1,6 @@
 :root{--cream:#FBF7EE;--paper:#FFFFFF;--ink:#141414;--muted:#5b5b5b;--line:#e6dfcf;--blue:#1D4F9C;--blue-d:#163E7C;--yellow:#FFE15A;--r:14px}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.65 Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
@@ -12,7 +13,18 @@ h1,h2,h3{line-height:1.2;margin:0 0 .5em;font-weight:700;letter-spacing:-.01em}
 .btn-ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
 .btn-sm{padding:7px 16px;font-size:14px}
 .btn-yt{display:inline-flex;align-items:center;gap:8px;background:#E00;border-color:#E00;color:#fff}
-.btn-yt:hover{background:#c00;border-color:#c00}
+.btn-yt .yt-bg{fill:#fff}.btn-yt .yt-tri{fill:#E00}
+.btn-yt:hover{background:#fff;border-color:#E00;color:#E00}
+.btn-yt:hover .yt-bg{fill:#E00}.btn-yt:hover .yt-tri{fill:#fff}
+.btn-yt-alt{background:#fff;color:#E00}
+.btn-yt-alt .yt-bg{fill:#E00}.btn-yt-alt .yt-tri{fill:#fff}
+.btn-yt-alt:hover{background:#E00;color:#fff}
+.btn-yt-alt:hover .yt-bg{fill:#fff}.btn-yt-alt:hover .yt-tri{fill:#E00}
+.pager{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:40px}
+.pager button{font:inherit;font-weight:600;font-size:15px;min-width:44px;height:44px;padding:0 14px;border-radius:999px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.pager button:hover:not(:disabled){background:var(--yellow)}
+.pager button.on{background:var(--ink);color:#fff}
+.pager button:disabled{opacity:.35;cursor:default}
 .btn-yt .yt{flex:none}
 .btn-sm.btn-yt .yt{width:16px;height:16px}
 .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
