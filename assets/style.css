@@ -137,24 +137,12 @@ nav a:not(.btn):hover{color:var(--blue)}
   nav a:not(.btn){display:none}
   .top-in{height:72px}
   .brand-ph{width:40px;height:40px}
+  .brand{gap:9px}
   .wm-name{font-size:17px}
   .wm-tag{font-size:10px}
-  .wm-line{height:13px;margin:4px 0 3px}
-  .wm-line .hb{height:13px}.wm-line .hb:first-child{width:20px}.wm-line .hb:last-child{width:22px}
-  .wm-line i{margin-top:8.45px}
   .btn-sm.btn-yt{padding:7px 12px;font-size:13px;gap:6px}
   .btn-sm.btn-yt .yt{width:15px;height:15px}
-  .brand{gap:9px}
   .lede{font-size:18px}
-}
-@media (max-width:400px){
-  .wrap{padding:0 12px}
-  .brand-ph{width:34px;height:34px}
-  .brand{gap:7px}
-  .wm-name{font-size:15px}
-  .wm-tag{font-size:9.5px;margin-top:3px}
-  .btn-sm.btn-yt{padding:6px 10px;font-size:12.5px;gap:5px}
-  .lede{font-size:16.5px}
   .grid{grid-template-columns:1fr;gap:18px}
   .grid .card,.vside .card{background:#fff;border:1.5px solid #e2d9c6;border-radius:16px;padding:10px 10px 14px}
   .grid .card h3,.grid .card .meta,.vside .card h3,.vside .card .meta{padding:0 4px}
@@ -166,4 +154,13 @@ nav a:not(.btn):hover{color:var(--blue)}
   .page{padding:20px 16px 60px}
   .hero-latest{box-shadow:4px 4px 0 var(--ink)}
   .player{box-shadow:4px 4px 0 var(--ink)}
+}
+@media (max-width:400px){
+  .wrap{padding:0 12px}
+  .brand-ph{width:34px;height:34px}
+  .brand{gap:7px}
+  .wm-name{font-size:15px}
+  .wm-tag{font-size:9.5px;margin-top:3px}
+  .btn-sm.btn-yt{padding:6px 10px;font-size:12.5px;gap:5px}
+  .lede{font-size:16.5px}
 }
