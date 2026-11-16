@@ -59,7 +59,7 @@ nav a:not(.btn):hover{color:var(--blue)}
 .hero h1{font-size:clamp(40px,6vw,68px);margin-bottom:.25em}
 .hero mark{background:linear-gradient(transparent 55%,var(--yellow) 55%,var(--yellow) 92%,transparent 92%);color:inherit;padding:0 .05em}
 .hero em{font-style:normal;color:var(--blue)}
-.lede{font-weight:600;color:#333;font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.lede{font-weight:400;color:var(--muted);font-size:19px;margin:0 0 6px}
 .hero-text>p:not(.lede){color:var(--muted);max-width:34em}
 .hero-latest{display:block;background:var(--paper);border:2px solid var(--ink);border-radius:var(--r);padding:14px;text-decoration:none;color:var(--ink);box-shadow:6px 6px 0 var(--ink);transition:.15s}
 .hero-latest:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
@@ -145,7 +145,7 @@ nav a:not(.btn):hover{color:var(--blue)}
   .btn-sm.btn-yt{padding:7px 12px;font-size:13px;gap:6px}
   .btn-sm.btn-yt .yt{width:15px;height:15px}
   .brand{gap:9px}
-  .lede{font-size:18px}
+  .lede{font-size:17px}
 }
 @media (max-width:400px){
   .wrap{padding:0 12px}
@@ -154,7 +154,7 @@ nav a:not(.btn):hover{color:var(--blue)}
   .wm-name{font-size:15px}
   .wm-tag{font-size:9.5px;margin-top:3px}
   .btn-sm.btn-yt{padding:6px 10px;font-size:12.5px;gap:5px}
-  .lede{font-size:16.5px}
+  .lede{font-size:15.5px}
   .grid{grid-template-columns:1fr}
   .about-in{flex-direction:column;text-align:center}
   .about img{width:120px;height:120px}
