@@ -65,6 +65,7 @@ nav a:not(.btn):hover{color:var(--blue)}
 .hero em{font-style:normal;color:var(--blue)}
 .lede{font-weight:600;color:#333;font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
 .hero-text>p:not(.lede){color:var(--muted);max-width:34em}
+.hero .lede-sub{font-weight:500;color:#444;font-size:19px;line-height:1.55;max-width:30em;letter-spacing:0;margin-bottom:4px}
 .hero-latest{display:block;background:var(--paper);border:2px solid var(--ink);border-radius:var(--r);padding:14px;text-decoration:none;color:var(--ink);box-shadow:6px 6px 0 var(--ink);transition:.15s}
 .hero-latest:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
 .hero-latest h3{font-size:19px;margin:12px 4px 4px}
@@ -166,6 +167,7 @@ nav a:not(.btn):hover{color:var(--blue)}
   .btn-sm.btn-yt{padding:7px 12px;font-size:13px;gap:6px}
   .btn-sm.btn-yt .yt{width:15px;height:15px}
   .lede{font-size:18px}
+  .hero .lede-sub{font-size:17px}
   .grid{grid-template-columns:1fr;gap:18px}
   .grid .card,.vside .card{background:#fff;border:1.5px solid #e2d9c6;border-radius:16px;padding:10px 10px 14px}
   .grid .card h3,.grid .card .meta,.vside .card h3,.vside .card .meta{padding:0 4px}
