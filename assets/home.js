@@ -1,9 +1,9 @@
 (function () {
   var PER_PAGE = 12;
   var q = document.getElementById('q'), none = document.getElementById('none'), pager = document.getElementById('pager');
-  var section = document.getElementById('videos'), sub = document.getElementById('subcard');
-  var cards = [].slice.call(document.querySelectorAll('#grid .card'));
-  var chips = [].slice.call(document.querySelectorAll('.chip'));
+  var grid = document.getElementById('grid'), section = grid.closest('section'), sub = document.getElementById('subcard');
+  var cards = [].slice.call(grid.querySelectorAll('[data-topics]'));
+  var chips = [].slice.call(section.querySelectorAll('.chip'));
   var topic = 'all', page = 1;
 
   function matches() {
