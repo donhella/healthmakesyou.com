@@ -127,7 +127,8 @@ nav a:not(.btn):hover{color:var(--blue)}
 .play{position:relative;padding:0;cursor:pointer;background:#000}
 .play img{width:100%;height:100%;object-fit:cover}
 .pbtn{position:absolute;inset:0;display:grid;place-items:center}
-.play:hover .pbtn svg path:first-child{fill:#163E7C}
+.play:hover .pbtn svg path:first-child{fill:#CC0000}
+.pbtn svg{filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
 .vbody{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px}
 .vmain h2,.vside h2{font-size:22px;margin-top:6px}
 .vmain p{color:#262626}
