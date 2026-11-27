@@ -224,8 +224,6 @@ nav a:not(.btn):hover{color:var(--blue)}
 .optin-inline .oi-in{grid-template-columns:150px 1fr;gap:28px}
 .optin-inline h2{font-size:clamp(22px,2.6vw,28px)}
 .free-page .optin{border-radius:20px;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);margin-top:10px}
-.free-page .optin-band .oi-in{grid-template-columns:360px 1fr;gap:56px}
-.free-page .oi-cover img{box-shadow:12px 12px 0 var(--yellow);border-width:3px}
 .optin-band{margin-top:36px}
 .free-page .optin-band{margin-top:10px}
 .free-what{max-width:760px;margin:44px auto 0}
@@ -237,7 +235,6 @@ nav a:not(.btn):hover{color:var(--blue)}
 @media (max-width:760px){
   .oi-in,.optin-inline .oi-in,.free-page .optin-band .oi-in{grid-template-columns:1fr;gap:22px}
   .oi-cover{max-width:120px}
-  .free-page .oi-cover{max-width:none;width:78%;margin:6px auto 10px}
   .free-page .optin-band{padding:30px 0 36px}
   .oi-form button{white-space:normal}
   .oi-form input{font-size:16px}
