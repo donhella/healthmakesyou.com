@@ -13,7 +13,6 @@ document.querySelectorAll('.oi-form').forEach(function (f) {
         f.hidden = true;
         var box = f.closest('.oi-txt');
         box.querySelector('.oi-ok').hidden = false;
-        var dl = box.querySelector('.oi-dl'); if (dl) dl.focus();
         box.querySelector('.oi-fine').hidden = true;
       })
       .catch(function () { f.dataset.fallback = '1'; f.submit(); });
