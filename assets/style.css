@@ -247,3 +247,5 @@ nav a:not(.btn):hover{color:var(--blue)}
   .oi-form button{width:100%}
 }
 .all-arts{text-align:center;margin:34px 0 0}
+.optin .oi-ok p{margin:0 0 12px}
+.oi-dl{display:inline-block;font-weight:700;padding:12px 22px;border-radius:999px;border:2px solid var(--ink);background:var(--yellow);color:var(--ink);text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
